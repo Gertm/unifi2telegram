@@ -21,5 +21,5 @@ There is an example service file for systemd included.
 
 To cross-compile for Windows, use the with-env.ps1 Powershell file to do this:
 ```
-GOOS=linux GOARCH=amd64 go build
+with-env.ps1 GOOS=linux GOARCH=amd64 go build
 ```
