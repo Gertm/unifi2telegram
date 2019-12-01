@@ -19,7 +19,7 @@ Copy the resulting executable to /usr/bin/
 
 There is an example service file for systemd included.
 
-To cross-compile for Windows, use the with-env.ps1 Powershell file to do this:
+To cross-compile on Windows for Linux, use the with-env.ps1 Powershell file to do this:
 ```
 with-env.ps1 GOOS=linux GOARCH=amd64 go build
 ```
