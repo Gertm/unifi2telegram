@@ -1,0 +1,14 @@
+[Unit]
+Description=Unifi2Telegram bot
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=gert
+ExecStart=/usr/bin/unifi2telegram
+
+[Install]
+WantedBy=multi-user.target
